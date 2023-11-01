@@ -1,8 +1,7 @@
 header {
     width: 100%;
     padding: 28px 0px;
-    position: absolute;
-    border-bottom:1px solid #707070;
+    position: fixed;
     z-index: 99;
 }
 
@@ -19,17 +18,29 @@ header nav{
 header nav ul {
     list-style: none;
     display: flex;
-    gap: 47px;
+    gap: 25px;
 }
 
 
 header nav ul li a {
     font-size: 16px;
-    color: black;
+    color: white;
+    font-weight: 500    ;
 }
 
-.header-search-icon {
-    float: right;
-    cursor: pointer;
-    
+.salut-logo{
+    font-size: 45px;
+    font-family: 'Old Standard TT';
+    color: white;
+    font-style: italic;
 }
+
+header.sticky{
+    padding: 5px 100px;
+    background-color: rgb(24, 22, 22, 1);
+}
+
+header.sticky ul li a{
+    color: white;
+}
+
