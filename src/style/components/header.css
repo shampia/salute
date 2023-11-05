@@ -25,7 +25,8 @@ header nav ul {
 header nav ul li a {
     font-size: 16px;
     color: white;
-    font-weight: 500    ;
+    font-weight: 500;
+    font-family: 'Old Standard TT';
 }
 
 .salut-logo{
